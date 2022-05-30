@@ -1,0 +1,12 @@
+<?php
+                if( isset($_SESSION['user_id']) ) {
+                    ?>
+                        <button class="btn"><a href="logout.php">LOGOUT</a></button>
+                    <?php
+                }
+                else {
+                    ?>
+                    <button class="btn"><a href="login.php">LOGIN</a></button>
+                    <?php
+                }
+            ?>
